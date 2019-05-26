@@ -42,4 +42,6 @@ def printer(attendees)
   end
 end
 
+badge = badge_maker("esad")
+puts badge
 printer(["esad", "ibrahim"])
