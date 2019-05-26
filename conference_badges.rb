@@ -1,6 +1,5 @@
 # Write your code here.
 
-names = ["aarond, "john"]
 def badge_maker(name)
   
   return "Hello, my name is #{name}."
@@ -15,5 +14,5 @@ def batch_badge_creator(names)
     badges << badge_maker(name)
   end
   
-   badges
+   return badges
 end 
