@@ -7,7 +7,8 @@ def badge_maker(name)
 end 
 
 def batch_badge_creator(names)
-  
-  names.each do |color|
-  puts "Primary Color #{color} is #{color.length} letters long."
+  badges=[]
+  names.each do |name|
+  badges << badge_maker(name)
+  return badges
 end
