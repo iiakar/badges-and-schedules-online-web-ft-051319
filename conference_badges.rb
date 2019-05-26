@@ -21,6 +21,6 @@ def assign_rooms(names)
   ["chair", "table", "laptop"]
   0,          1,         2  
   
-  names.each do |name|
+  names.each_with_index do |item, index|
     badges << "Hello, #{name}! You'll be assigned to room 1!"
   end
