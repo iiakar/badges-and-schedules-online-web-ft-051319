@@ -45,3 +45,5 @@ end
 badge = badge_maker("esad")
 puts badge
 
+batch_badge_creator(["esad"])
+
