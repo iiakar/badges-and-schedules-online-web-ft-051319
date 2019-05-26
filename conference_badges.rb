@@ -45,5 +45,6 @@ end
 badge = badge_maker("esad")
 puts badge
 
-batch_badge_creator(["esad"])
+badges = batch_badge_creator(["esad"])
+print badge
 
