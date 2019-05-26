@@ -17,8 +17,7 @@ def batch_badge_creator(names)
    return badges
 end 
 
-def assign_rooms(names) names = [Array.new]
-  
+def assign_rooms(names)
   ["chair", "table", "laptop"]
   0,          1,         2  
   
