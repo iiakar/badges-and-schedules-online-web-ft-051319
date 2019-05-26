@@ -37,7 +37,7 @@ def printer(names)
     puts badge
   end
   
-    badge_strings.each do |badge|
+  room_strings.each do |room|
     puts badge
   end
   
