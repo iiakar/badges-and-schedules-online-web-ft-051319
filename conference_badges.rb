@@ -10,7 +10,7 @@ def batch_badge_creator(names)
   
   badges=[]
   
-  names.each do |name| 'chair', 'table'
+  names.each do |name|  'table'
     badges << badge_maker(name)
   end
   
