@@ -40,5 +40,5 @@ def printer(attendees)
   room_strings.each do |room|
     puts room
   end
-  
+end
 end
