@@ -30,6 +30,7 @@ def assign_rooms(names)
 
 def printer(attendees)
   
+  puts "hello!"
   badge_strings = batch_badge_creator(attendees)
   room_strings = assign_rooms(attendees)
   
