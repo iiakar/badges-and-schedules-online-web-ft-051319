@@ -42,8 +42,3 @@ def printer(attendees)
   end
 end
 
-
-
-rooms = assign_rooms(["esad"])
-print rooms
-
