@@ -48,3 +48,5 @@ puts badge
 badges = batch_badge_creator(["esad"])
 print badges
 
+rooms = assign_rooms(["esad"])
+
