@@ -8,6 +8,6 @@ end
 
 def batch_badge_creator(names)
   
-  attendees.each do |color|
+  names.each do |color|
   puts "Primary Color #{color} is #{color.length} letters long."
 end
