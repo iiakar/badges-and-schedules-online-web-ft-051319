@@ -17,7 +17,8 @@ def batch_badge_creator(names)
    return badges
 end 
 
-def assign_rooms 
-
-
-
+def assign_rooms(names) 
+  
+  names.each do |name|
+    badges << "Hello, #{name}! You'll be assigned to room 1!"
+  end
