@@ -10,10 +10,12 @@ def batch_badge_creator(names)
   
   badges=[]
   
-  names.each do |name|
+  names.each do |name| 'chair', 'table'
     badges << badge_maker(name)
   end
   
+  
+  badges = ["Hello, my name is chair", "Hello, my name is table"]
    return badges
 end 
 
@@ -30,8 +32,10 @@ def assign_rooms(names)
 
 def printer(names)
   
+  names = ["chair", "tables"]
   
-  batch_badge_creator()
-  assign_rooms()
+  
+  batch_badge_creator(names)
+  assign_rooms(names)
 
 end
