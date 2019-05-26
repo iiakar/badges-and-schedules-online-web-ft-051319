@@ -42,11 +42,7 @@ def printer(attendees)
   end
 end
 
-badge = badge_maker("esad")
-puts badge
 
-badges = batch_badge_creator(["esad"])
-print badges
 
 rooms = assign_rooms(["esad"])
 print rooms
